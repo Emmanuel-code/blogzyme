@@ -1,0 +1,20 @@
+# Ignore Python virtual environment
+my-ven/
+venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
+
+# Ignore Next.js build files
+frontend/.next/
+frontend/node_modules/
+
+# Ignore Docker-related files (optional)
+*.log
+dump.rdb
